@@ -18,6 +18,7 @@
         "one-var": ["error", { "uninitialized": "always", "initialized": "never" }],
         "one-var-declaration-per-line": ["error", "initializations"],
         "max-len": ["error", 200],
+        "no-alert": 0,
         "no-extra-parens": 0,
         "no-restricted-syntax": [
           0,
@@ -25,6 +26,7 @@
         ],
         "no-debugger": "warn",
         "react/prefer-stateless-function": "off",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "prefer-destructuring": 0
     }
 }
